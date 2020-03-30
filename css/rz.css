@@ -1,0 +1,8 @@
+h2{
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: url(../img/antelopeBg.JPG) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 100;
+
+ }
