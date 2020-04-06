@@ -628,8 +628,10 @@ textarea, label {
 .progress .skill-name {
   border-right: 2px solid #2e333a;
   min-width: 160px;
-  text-align: center;
+  text-align: left;
+  padding-left: 7px;
   text-transform: uppercase;
+  border-radius: 3px;
 }
 .progress .skill-bar {
   background-color: #07080b;
