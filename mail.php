@@ -1,4 +1,6 @@
 <?php
+
+if(isset($_POST['submit'])){
     $to = "getrealzx@gmail.com"; // replace this mail with yours
     $from = $_SERVER['PHP_SELF']." ".$_POST["email"];
     $fname = $_POST["name"];
@@ -17,4 +19,8 @@
         echo '<label class="success">Sent your <b>e-mail.</b></label>';
     }else{
         echo '<label class="error">Something went wrong! please try again.</label>';
-    }
+    };
+}
+
+?>
+
